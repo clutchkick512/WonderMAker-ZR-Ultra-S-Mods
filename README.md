@@ -1,11 +1,24 @@
-Just your average 3d print user who got one of these things and has enough knowledge to be dangerous lol.
+# WonderMaker ZR Ultra S Mods
 
-Seriously try my changes at your own risk and backup all your stock configs first!
+Community-driven improvements, utilities, and enhancements for the WonderMaker ZR Ultra S.
 
+## Projects
 
-CHECK YOUR MACHINE GCODE SECTIONS
-start code-
-START_PRINT EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single] CHAMBER=[chamber_temperature] INITIAL_TOOL=[initial_tool]  MESH_MIN_X={adaptive_bed_mesh_min[0]}  MESH_MIN_Y={adaptive_bed_mesh_min[1]} MESH_MAX_X={adaptive_bed_mesh_max[0]} MESH_MAX_Y={adaptive_bed_mesh_max[1]} PROBE_COUNT_X={bed_mesh_probe_count[0]} PROBE_COUNT_Y={bed_mesh_probe_count[1]}
+### WonderSync
+Moonraker compatibility bridge that enables OrcaSlicer filament synchronization with the WonderMaker touchscreen.
 
+Status: Experimental
 
-End Code- PRINT_END (THIS IS COMMENTED OUT BY DEFAULT IN ORCA AND WM ORCA)
+### Macros
+Improved print start/end routines, adaptive mesh, chamber heating, and quality-of-life enhancements.
+
+### Configurations
+Community-tested Klipper configuration improvements.
+
+## Current Status
+
+✔ WonderSync v0.1.0 released
+
+## Contributions
+
+Issues, testing, pull requests, and feature requests are welcome.
